@@ -56,6 +56,7 @@ passwd oracle
 ### 8、使用Oracle登录进行相关的处理并查看pdb
 
 ```
+su - oracle
 sqlplus / as sysdba
 show pdbs
 ```
@@ -68,5 +69,6 @@ CREATE TRIGGER open_all_pdbs
 BEGIN
    EXECUTE IMMEDIATE 'alter pluggable database all open';
 END open_all_pdbs;
+/
 ```
 

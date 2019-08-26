@@ -29,6 +29,7 @@ export CREATE_AS_CDB=true
 ### 4、复制文件
 
 ```
+cd /etc/sysconfig
 cp oracledb_ORCLCDB-19c.conf  oracledb_ORA19C-19c.conf
 ```
 
